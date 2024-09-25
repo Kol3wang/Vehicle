@@ -66,16 +66,16 @@ class Truck extends Vehicle implements AbleToTow {
     // TODO: The method should call the printDetails method of the parent class
     // TODO: The method should log the details of the Truck
     // TODO: The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels
-    override printDetails(): void {
-      // Call the parent class's printDetails method to print common details
-      super.printDetails();
+    // printDetails(): void {
+    //   // Call the parent class's printDetails method to print common details
+    //   super.printDetails();
     
-      // Log the Truck-specific details
-      console.log(`Towing Capacity: ${this.towingCapacity} lbs`)
+    //   // Log the Truck-specific details
+    //   console.log(`Towing Capacity: ${this.towingCapacity ?? 'N/A'} lbs`);
     
-      // Log the details of each wheel, using correct getter methods from the Wheel class
-      console.log(`Wheels: ${this.wheels.map(wheel => `${wheel.diameter} inch ${wheel.tireBrand}`).join(', ')}`);
-    }
+    //   // Log the details of each wheel, using correct getter methods from the Wheel class
+    //   console.log(`Wheels: ${this.wheels?.map((wheel: Wheel) => `${wheel.diameter} inch ${wheel.tireBrand}`).join(', ') ?? 'No wheels available'}`);
+    // }
 // Export the Truck class as the default export
 export default Truck;
 
