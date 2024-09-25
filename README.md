@@ -1,7 +1,7 @@
   # Vehicle Application
 
   ## Description  
-  The Vehicle Application allows users to create and manage various types of vehicles, including cars, trucks, and motorbikes. Users can perform various actions on the selected vehicles, such as printing details, starting the vehicle, accelerating, and more. The application demonstrates the use of object-oriented programming principles and TypeScript for creating and manipulating different vehicle types.
+  The Vehicle Application allows users to create and manage various types of vehicles, including cars, trucks, and motorbikes. Users can perform multiple actions on the selected vehicles, such as printing details, starting the car, accelerating, and more. The application demonstrates object-oriented programming principles and TypeScript for creating and manipulating different vehicle types.
   ## Table of Contents
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
@@ -12,7 +12,7 @@
   - [Questions](#questions)
   
   ## Walkthrough Video
-You can watch the walkthrough video [here](https://youtu.be/h9x4OLD4-lI).
+  You can watch the walkthrough video [here](https://youtu.be/h9x4OLD4-lI).
 
   ## Installation
   1. **Clone the Repository:**
